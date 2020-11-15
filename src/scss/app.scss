@@ -1,0 +1,86 @@
+// @import 'card';
+@import 'home';
+@import 'boka';
+@import 'timeline';
+
+
+// $primary-color: slateblue;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.btn-primary {
+	color: #e5d7c1;
+	background-color: #494e22;
+	border-color: #97906b;
+}
+  
+.btn-primary:hover {
+	color: #212529;
+	background-color: #97906b;
+	border-color: #494e22;
+}
+  
+.btn-secondary {
+	color: #212529;
+	background-color: #97906b;
+	border-color: #494e22;
+}
+
+.btn-secondary:hover {
+	color: #e5d7c1;
+	background-color: #494e22;
+	border-color: #97906b;
+}
+
+#backtotopbutton {
+	display: inline-block;
+	background-color: #494e22;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+	&::after {
+		//content: "\f077";
+		content: "Upp";
+		//font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 1em;
+		line-height: 50px;
+		color: #e5d7c1;
+	}
+	&:hover {
+	cursor: pointer;
+	background-color: #97906b;
+	}
+	&:active {
+	background-color: #555;
+	}
+	&.show {
+	opacity: 1;
+	visibility: visible;
+	}
+}
+
+.nav-link {
+	svg {
+		width: 2em;
+		height: 2	em;
+	}
+}

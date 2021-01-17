@@ -1,5 +1,7 @@
 import axios from 'axios';
 import icons from '../assets/images/icons/*.png';
+import sunriseIcon from '../assets/images/sunrise.svg';
+import sunsetIcon from '../assets/images/sunset.svg'
 
 const Weather = async () => {
 	const res = await axios.get('https://api.openweathermap.org/data/2.5/weather?q=altuna&units=metric&APPID=a2cbebe3bc93590c1718ca98425f0512');
@@ -40,28 +42,17 @@ const Weather = async () => {
   var hours = date.getHours();
   var minutes = "0" + date.getMinutes();
   var seconds = "0" + date.getSeconds();
-  var solUppgang = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+  var solUppgang = hours + ':' + minutes.substr(-2);
   let sunset = weather.sys.sunset;
   var date = new Date(sunset * 1000);
   var hours = date.getHours();
   var minutes = "0" + date.getMinutes();
   var seconds = "0" + date.getSeconds();
-  var solNedgang = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+  var solNedgang = hours + ':' + minutes.substr(-2);
 
 	const template = `
-    <div class="card">
-      <div class="card-body">
-        <h1>${weather.name}</h1>
-        <ul>
-          <li>${Math.round(weather.main.temp)}°c</li>
-          <li>${Math.round(weather.main.temp_max)}°c</li>
-          <li>${Math.round(weather.main.temp_min)}°c</li>
-          <li>${weather.weather[0].main}</li>
-          <li><img src="${icons[weather.weather[0].icon]}" alt="väderikon" /></li>
-          <li>Solen går upp ${solUppgang}</li>
-          <li>Solen går ner ${solNedgang}</li>
-        </ul>
-      </div>
+    <div class="weather-container">
+      <p>${weather.name} ${Math.round(weather.main.temp)}°C | ${weather.weather[0].main} <img src="${icons[weather.weather[0].icon]}" width="20px" height="20px" alt="väderikon" /> | <img src="${sunriseIcon}" width="18px" height="18px" alt="soluppgång" /> ${solUppgang} | <img src="${sunsetIcon}" width="18px" height="18px" alt="solnedgång" /> ${solNedgang}</p>
     </div>
   `;
 

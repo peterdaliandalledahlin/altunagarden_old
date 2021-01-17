@@ -32,11 +32,25 @@ const app = async () => {
     });
     //END LOAD MODAL
 
+    $(".content").hide();
+    $(".show_hide").on("click", function () {
+        var txt = $(".content").is(':visible') ? 'Läs mer...' : 'Läs mindre...';
+        $(".show_hide").text(txt);
+        $(this).next('.content').slideToggle(200);
+    });
+
+    //START READMORE
+    // $('article').readmore({
+    //   speed: 75,
+    //   lessLink: '<a href="#">Read less</a>'
+    // });
+    //END READMORE
+
     const renderEvents = async () => {
 
       const container = document.querySelector('#eventsContainer');
       
-      let uri = 'http://localhost/wordpress-headless-cms/wp-json/wp/v2/events';
+      let uri = 'http://localhost/wordpress-headless-cms/wp-json/wp/v2/posts';
   
       const res = await fetch(uri);
       const events = await res.json();
@@ -60,7 +74,7 @@ const app = async () => {
               <h5 class="card-title">${event.title.rendered}</h5>
               <h6 class="card-subtitle mb-2 text-muted">Upplagd: ${event.date.slice(0,event.date.length-9)}</h6>
               <p id="readmore" class="card-text">${cleanText}</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#contact" class="btn btn-primary">Kontakt</a>
           </div>
           </div>
       </div>

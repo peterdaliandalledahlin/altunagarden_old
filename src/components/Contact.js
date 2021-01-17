@@ -21,7 +21,7 @@ const Contact = () => {
                 <h6 class="card-subtitle mb-2 text-muted">Per Westin</h6>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                 <a href="tel:0708964947" class="card-link">070-896 49 47</a>
-                <a href="mailto:per@elesystems.se" class="card-link">per@elesystems.se</a>
+                <a href="mailto:per@elesystems.se" class="card-link">per@panhard.se</a>
               </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Contact = () => {
                 <h6 class="card-subtitle mb-2 text-muted">Håkan Wallén</h6>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                 <a href="tel:0702838373" class="card-link">070-529 61 07</a>
-                <a href="#" class="card-link">ingen mailadress</a>
+                <a href="#" class="card-link">hakan@sevasta.se</a>
               </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                 <h6 class="card-subtitle mb-2 text-muted">Barbro Vestin</h6>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                 <a href="tel:0730765421" class="card-link">073-076 54 21</a>
-                <a href="#" class="card-link">ingen mailadress</a>
+                <a href="#" class="card-link">bw505121@gmail.com</a>
               </div>
           </div>
         </div>

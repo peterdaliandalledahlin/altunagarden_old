@@ -7,11 +7,11 @@ const About = () => {
     </div>
     <div id="blimedlem" class="card text-center mt-3 mt-md-5 shadow-sm">
         <div class="card-header">
-            Medlemsavgift för 2020
+            Medlemsavgift för 2021
         </div>
         <div class="card-body">
           <h5 class="card-title">Vill du bli medlem?</h5>
-          <p class="card-text">Medlemsavgift för 2020 är 100 kronor för enskild och 150 kronor för familj. Betalning kan göras till BG 320-0490 eller via swish 123 578 92 50.</p>
+          <p class="card-text">Medlemsavgift för 2021 är 100 kronor för enskild och 150 kronor för familj. Betalning kan göras till BG 320-0490 eller via swish 123 578 92 50.</p>
           <a href="#contact" class="btn btn-primary">Kontakt</a>
         </div>
         <div class="card-footer text-muted">

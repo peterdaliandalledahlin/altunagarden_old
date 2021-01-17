@@ -16,11 +16,11 @@ async function App() {
   template.innerHTML = `
     <div class="container-fluid p-0">
       ${Header()}
+      ${await Weather()}
       ${Home()}
       ${Modal()}
     </div>
     <div class="container">
-      ${await Weather()}
       ${Book()}
       ${About()}
       ${Gallery()}

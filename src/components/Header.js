@@ -10,8 +10,7 @@ const Header = () => {
               <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item"><a class="nav-link" href="#home">Hem</a></li>
                   <li class="nav-item"><a class="nav-link" href="#book">Boka</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#about">Om oss</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#gallery">Galleri</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about">På gång</a></li>
                   <li class="nav-item"><a class="nav-link" href="#activities">Aktiviteter</a></li>
                   <li class="nav-item"><a class="nav-link" href="#map">Hitta till oss</a></li>
                   <li class="nav-item"><a class="nav-link" href="#contact">Kontakta oss</a></li>

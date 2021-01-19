@@ -23,14 +23,14 @@ const Timeline = () => {
                     <div class="timeline-content">
                         <span class="timeline-year">2019</span>
                         <h3 class="title"></h3>
-                        <p class="description">Altunagården 70 år!</p>
+                        <p class="description">Altunagården 70 år! Firades med besök av landshövding Göran Enander, Uppsala län, samt luciatåg. Föreningen Fjärdhundraland får stora turismpriset, föreningen Altunagården är en del av Fjärdhundraland. Bygdegården får en upprustning interiört.</p>
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="timeline-year">2018</span>
                         <h3 class="title"></h3>
-                        <p class="description">Dalkarlsvandrarna. Studiecirkel "Altunagårdens historia" bildas. Distriktsstämma.</p>
+                        <p class="description">Bygdegården blir utnämnd till årets bygdegård i Uppsala läns bygdegårdsdistrikt. Dalkarlsvandrarna. Studiecirkel "Altunagårdens historia" bildas. Distriktsstämma.</p>
                     </div>
                 </div>
                 <div class="timeline">

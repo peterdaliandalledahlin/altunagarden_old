@@ -5,7 +5,7 @@ const app = async () => {
   
   $(function() {
 
-    //START BACK TO TOP BTN
+//START BACK TO TOP BTN
     let btn = $('#backtotopbutton');
     $(window).scroll(function() {
       if ($(window).scrollTop() > 300) {
@@ -18,33 +18,28 @@ const app = async () => {
       e.preventDefault();
       $('html, body').animate({scrollTop:0}, '300');
     });
-    //END BACK TO TOP BTN
+//END BACK TO TOP BTN
 
-    //START CLOSE MOBILE MENU ON CLICK
+//START CLOSE MOBILE MENU ON CLICK
     $('.navbar-nav>li>a').on('click', function(){
       $('.navbar-collapse').collapse('hide');
     });
-    //END CLOSE MOBILE MENU ON CLICK
+//END CLOSE MOBILE MENU ON CLICK
 
-    //START LOAD MODAL
+//START LOAD MODAL
     $(window).on('load',function(){
        $('#joinaltunagarden').modal('show');
     });
-    //END LOAD MODAL
-
+//END LOAD MODAL
+    
+//START READMORE TIMELINE
     $(".content").hide();
     $(".show_hide").on("click", function () {
         var txt = $(".content").is(':visible') ? 'Läs mer...' : 'Läs mindre...';
         $(".show_hide").text(txt);
         $(this).next('.content').slideToggle(200);
     });
-
-    //START READMORE
-    // $('article').readmore({
-    //   speed: 75,
-    //   lessLink: '<a href="#">Read less</a>'
-    // });
-    //END READMORE
+//END READMORE TIMELINE
 
     const renderEvents = async () => {
 
@@ -54,19 +49,15 @@ const app = async () => {
   
       const res = await fetch(uri);
       const events = await res.json();
-      // console.log(events);
   
     let eventTemplate = '';
     events.forEach(event => {
-      // console.log(event.title.rendered);
-      // console.log(event.slug);
-      // console.log(event.content.rendered);
       
       //REMOVE LINEBREAKS
       // someText = event.content.rendered.replace(/(\r\n|\n|\r)/gm,"");
       //REMOVE HTML TAGS
       const cleanText = event.content.rendered.replace(/<\/?[^>]+(>|$)/g, "");
-      //console.log(cleanText);
+
       eventTemplate += `
       <div class="col-sm-6">
           <div class="card mb-3 shadow-sm">

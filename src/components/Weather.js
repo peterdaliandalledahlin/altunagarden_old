@@ -6,7 +6,6 @@ import sunsetIcon from '../assets/images/sunset.svg'
 const Weather = async () => {
 	const res = await axios.get('https://api.openweathermap.org/data/2.5/weather?q=altuna&units=metric&APPID=a2cbebe3bc93590c1718ca98425f0512');
   const weather = res.data;
-  console.log(weather);
 
   switch(weather.weather[0].main) {
     case 'Fog':

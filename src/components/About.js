@@ -24,7 +24,6 @@ const About = () => {
     <div class="row row-cols-1 row-cols-md-4">
         <div class="col mb-4">
             <div class="card h-100 shadow-sm">
-            <img src="../images/medal-solid.svg" class="card-img-top" alt="500 kronorssedel">
             <div class="card-body">
                 <h5 class="card-title">Femhundringen</h5>
                 <p class="card-text"><u>I paketet ingår följande.</u></p>
@@ -37,7 +36,6 @@ const About = () => {
         </div>
         <div class="col mb-4">
             <div class="card h-100 shadow-sm">
-            <img src="../images/medal-solid.svg" class="card-img-top" alt="sponsring bronze">
             <div class="card-body">
                 <h5 class="card-title">Brons 3000 kr</h5>
                 <p class="card-text"><u>I paketet ingår följande</u></p>
@@ -52,7 +50,6 @@ const About = () => {
         </div>
         <div class="col mb-4">
             <div class="card h-100 shadow-sm">
-            <img src="../images/medal-solid.svg" class="card-img-top" alt="sponsring silver">
             <div class="card-body">
                 <h5 class="card-title">Silver 5000 kr</h5>
                 <p class="card-text"><u>I paketet ingår följande</u></p>
@@ -67,7 +64,6 @@ const About = () => {
         </div>
         <div class="col mb-4">
             <div class="card h-100 shadow-sm">
-            <img src="../images/medal-solid.svg" class="card-img-top" alt="sponsring guld">
             <div class="card-body">
                 <h5 class="card-title">Guld 7000 kr</h5>
                 <p class="card-text"><u>I paketet ingår följande</u></p>
@@ -81,8 +77,7 @@ const About = () => {
             </div>
         </div>
     </div>
-    <h6>Följande företag har på ett eller annat sätt bidragit till bevarandet av Altunagården!</h6>
-    <h6>Följande företag har sponsrat Altunagården:</h6>        
+    <h6>Följande företag har sponsrat och på ett eller annat sätt bidragit till bevarandet av Altunagården!</h6>      
     <div class="list-group mb-2 mb-md-5">
         <a href="https://abkarlhedin.se" target="_blank" class="list-group-item list-group-item-action list-group-item-light">AB Karl Hedin</a>
         <a href="https://ackes-fargcenter.nordsjoidedesign.se/" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Ackes Färgcenter</a>
@@ -103,11 +98,8 @@ const About = () => {
     <div class="list-group mb-2 mb-md-5">
         <a href="https://fjardhundraland.se/" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Fjärdhundraland</a>
         <a href="https://www.hembygd.se/altuna-hembygdsforening" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Altuna Hembygdsförening</a>
-        <a href="#" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Bert Olsson &amp; Söner Åkeri AB</a>
-        <a href="https://www.hogbergsbuss.se/" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Bröderna Högsbergs Busstrafik AB</a>
-        <a href="#" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Hemlins Festservice</a>
-        <a href="https://www.vilstena-fiskodling.se/" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Vilstena Fiskodling</a>
-        <a href="https://www.osterunda.se/" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Österundagården</a>
+        <a href="https://www.bygdegardarna.se/" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Bygdegårdarnas riksförbund</a>
+        <a href="https://www.facebook.com/Dragmansbosjon" target="_blank" class="list-group-item list-group-item-action list-group-item-light">Dragmansbosjön</a>
     </div>
 </div>
   `;

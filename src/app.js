@@ -2,7 +2,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Book from './components/Book'
 import About from './components/About'
-import Gallery from './components/Gallery'
+//import Gallery from './components/Gallery'
 import Activities from './components/Activities'
 import Map from './components/Map'
 import Contact from './components/Contact'
@@ -23,7 +23,6 @@ async function App() {
     <div class="container">
       ${Book()}
       ${About()}
-      ${Gallery()}
       ${Activities()}
       ${Map()}
       ${Contact()}

@@ -67,7 +67,6 @@ const Gallery = () => {
             </div>
     </div>
   `;
-
 	return template;
 };
 

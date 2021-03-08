@@ -7,7 +7,7 @@ const app = async () => {
 
 //START BACK TO TOP BTN
     let btn = $('#backtotopbutton');
-    $(window).scroll(function() {
+    $(window).on('scroll', function() {
       if ($(window).scrollTop() > 300) {
         btn.addClass('show');
       } else {
@@ -21,31 +21,37 @@ const app = async () => {
 //END BACK TO TOP BTN
 
 //START CLOSE MOBILE MENU ON CLICK
-    $('.navbar-nav>li>a').on('click', function(){
-      $('.navbar-collapse').collapse('hide');
-    });
+     $(".navbar-collapse").on("click", "a:not([data-toggle])", null, function () {
+      $(".navbar-collapse").collapse('hide');
+     });
 //END CLOSE MOBILE MENU ON CLICK
 
 //START LOAD MODAL
-    $(window).on('load',function(){
-       $('#joinaltunagarden').modal('show');
-    });
+  $('#altunagarden-modal').modal('show');
+
+  $('.modal-btn').on('click', function () {
+    $('#altunagarden-modal').modal('hide');
+  })
 //END LOAD MODAL
     
 //START READMORE TIMELINE
     $(".content").hide();
     $(".show_hide").on("click", function () {
-        var txt = $(".content").is(':visible') ? 'Läs mer...' : 'Läs mindre...';
+        let txt = $(".content").is(':visible') ? 'Läs mer...' : 'Läs mindre...';
         $(".show_hide").text(txt);
         $(this).next('.content').slideToggle(200);
     });
 //END READMORE TIMELINE
 
+    // $('.navbar-nav li:nth-child(4) a').on('click', function () {
+    //   $('#activities').get(0).scrollIntoView();
+    // });
+
     const renderEvents = async () => {
 
       const container = document.querySelector('#eventsContainer');
       
-      let uri = 'http://localhost/wordpress-headless-cms/wp-json/wp/v2/posts';
+      let uri = 'https://altunagarden.se/wordpress/wp-json/wp/v2/posts';
   
       const res = await fetch(uri);
       const events = await res.json();
@@ -75,6 +81,13 @@ const app = async () => {
     container.innerHTML = eventTemplate;
   }
   renderEvents();
+
+  
+    $("#comboFile").on('change', function (e) {
+      e.preventDefault();
+      //window.location.href = 'http://localhost:56818/' + $(this).val();
+      window.open($(this).val())
+    });
 
   });//END DOCUMENT READY
 

@@ -5,7 +5,7 @@ const About = () => {
     <div id="eventsContainer" class="row">
         
     </div>
-    <div id="blimedlem" class="card text-center mt-3 mt-md-5 shadow-sm">
+    <div id="member" class="card text-center mt-3 mt-md-5 shadow-sm">
         <div class="card-header">
             Medlemsavgift för 2021
         </div>
@@ -18,9 +18,8 @@ const About = () => {
             Kom ihåg att uppge ditt namn, telefonnummer och gärna e-postadress om det finns.
         </div>
     </div>
-    <h5 class="mt-3 mt-md-5">Om oss</h5>
     
-    <h5>Sponsorpaket Altunagården 2020</h5>
+    <h5 id="sponsor">Sponsorpaket Altunagården 2020</h5>
     <div class="row row-cols-1 row-cols-md-4">
         <div class="col mb-4">
             <div class="card h-100 shadow-sm">

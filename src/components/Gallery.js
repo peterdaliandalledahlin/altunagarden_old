@@ -1,67 +1,38 @@
+import festdukningstorasalen from '../assets/images/festdukning-stora-salen.webp';
+import festdukninglillasalen from '../assets/images/festdukning-lilla-salen.webp';
+import hallen1 from '../assets/images/hallen1.webp';
+import hallen2 from '../assets/images/hallen2.webp';
+import luftgevarsskytte from '../assets/images/luftgevarsskytte.webp'
 const Gallery = () => {
 	const template = `
     <div id="gallery" class="container gallery">
-        <h4 class="font-weight-light text-center text-lg-left mt-3 mb-0">Ett urval av bilder</h4>
+    <h5 class="mt-3">Galleri</h5>
+        <h6 class="font-weight-light text-center text-lg-left mt-3 mb-0">Ett urval av bilder</h6>
         <hr class="mt-2 mb-5">
             <div class="row text-center text-lg-left">
                 <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+                    <a href="javascript:void(0)" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="${festdukningstorasalen}" alt="festdukning i stora salen">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+                    <a href="javascript:void(0)" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="${festdukninglillasalen}" alt="festdukning i lilla salen">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+                    <a href="javascript:void(0)" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="${hallen1}" alt="hallen">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+                    <a href="javascript:void(0)" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="${hallen2}" alt="hallen">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                    <a href="javascript:void(0)" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="${luftgevarsskytte}" alt="hallen">
                     </a>
                 </div>
             </div>

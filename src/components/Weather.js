@@ -54,7 +54,6 @@ const Weather = async () => {
       <p>${weather.name} ${Math.round(weather.main.temp)}°C | ${weather.weather[0].main} <img src="${icons[weather.weather[0].icon]}" width="20px" height="20px" alt="väderikon" /> | <img src="${sunriseIcon}" width="18px" height="18px" alt="soluppgång" /> ${solUppgang} | <img src="${sunsetIcon}" width="18px" height="18px" alt="solnedgång" /> ${solNedgang}</p>
     </div>
   `;
-
 	return template;
 };
 

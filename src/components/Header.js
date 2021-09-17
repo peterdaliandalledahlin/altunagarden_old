@@ -1,9 +1,11 @@
 import protokoll2019 from '../assets/downloads/protokoll2019.pdf';
 import protokoll2020 from '../assets/downloads/protokoll2020.pdf';
+import dagordningarsmote2021 from '../assets/downloads/dagordningarsmote2021.pdf';
+import verksamhetsberattelse2020 from '../assets/downloads/verksamhetsberattelse2020.pdf';
 
 const Header = () => {
 	const template = `
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm smart-scroll">
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm smart-scroll">
       <div class="container">
           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -17,6 +19,7 @@ const Header = () => {
                   <li class="nav-item"><a class="nav-link" href="#activities">Aktiviteter</a></li>
                   <li class="nav-item"><a class="nav-link" href="#map">Hitta till oss</a></li>
                   <li class="nav-item"><a class="nav-link" href="#contact">Kontakta oss</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#gallery">Galleri</a></li>
                   <li class="nav-item"><a class="nav-link" href="#timeline">Tidslinje</a></li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,6 +30,8 @@ const Header = () => {
                         <div class="form-group">
                           <select class="form-control" id="comboFile">
                             <option selected="true" disabled="disabled">Välj fil</option>
+                            <option value="${dagordningarsmote2021}">Dagordning årsmöte 2021</option>
+                            <option value="${verksamhetsberattelse2020}">Verksamhetsberättelse 2020</option>
                             <option value="${protokoll2020}">Protokoll årsmöte 2020</option>
                             <option value="${protokoll2019}">Protokoll årsmöte 2019</option>
                           </select>

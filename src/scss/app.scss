@@ -8,13 +8,17 @@
 
 // $primary-color: slateblue;
 
-* {
+*, *::before, *::after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-html {
+:root {
+	// --navbar-height: 56px;
+	// scroll-padding-top: var(--navbar-height);
+	// scroll-padding-top: calc(var(--navbar-height) + 10px);
+	scroll-padding-top: 58px;
 	scroll-behavior: smooth;
 }
 
@@ -59,9 +63,7 @@ html {
 	visibility: hidden;
 	z-index: 1000;
 	&::after {
-		//content: "\f077";
 		content: "Upp";
-		//font-family: FontAwesome;
 		font-weight: normal;
 		font-style: normal;
 		font-size: 1em;
@@ -80,6 +82,10 @@ html {
 	visibility: visible;
 	}
 }
+
+// .navbar {
+// 	height: var(--navbar-height);
+// }
 
 .nav-link {
 	svg {

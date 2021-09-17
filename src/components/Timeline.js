@@ -9,7 +9,7 @@ const Timeline = () => {
                     <div class="timeline-content">
                         <span class="timeline-year">2021</span>
                         <h3 class="title"></h3>
-                        <p class="description"></p>
+                        <p class="description">Ny webbsida presenteras.</p>
                     </div>
                 </div>
                 <div class="timeline">
@@ -240,7 +240,40 @@ const Timeline = () => {
                     <div class="timeline-content">
                         <span class="timeline-year">1988</span>
                         <h3 class="title"></h3>
-                        <p class="description"></p>
+                        <p class="description">Året gav ett överskott på 26 560kr. Matservering, vårauktion, två danskvällar, Altunafesten och
+                        luciatablå gav tillsammans en intäkt på ca 23 000kr. Inga omkostnader för fastigheten, men en
+                        drastisk minskning av antalet uthyrningar till 327 ggr.</p>
+                        <a href="javascript:void(0)" class="show_hide" data-content="toggle-text">Läs mer...</a>
+                        <div class="content">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Ordförande:</td><td>Sven Olof Lundqvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vice ordförande:</td><td>Stig Karlsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kassör:</td><td>Tord Erlandsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sekreterare:</td><td>Monica Johansson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ledamöter:</td><td>Lars Ericsson och Kerstin Bergkvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suppleanter:</td><td>Sune Erlandsson, Ingvar Karlsson och Lis-Britt Eriksson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Programråd:</td><td>Sonja Lundqvist, Inger Wallén, Majvor Karlsson, Gudrun Karlsson, Birgit Alm och Monica Wallén</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kommunrepresentanter:</td><td>Barbro Alm och Tord Johansson.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">
@@ -248,34 +281,206 @@ const Timeline = () => {
                         <span class="timeline-year">1987</span>
                         <h3 class="title"></h3>
                         <p class="description">Medarrangör till Altunafesten i Flosta Hage.</p>
+                        <a href="javascript:void(0)" class="show_hide" data-content="toggle-text">Läs mer...</a>
+                        <div class="content">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Ordförande:</td><td>Sven Olof Lundqvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vice ordförande:</td><td>Stig Karlsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kassör:</td><td>Tord Erlandsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sekreterare:</td><td>Monica Johansson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ledamöter:</td><td>Lars Ericsson och Gudrun Kraft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suppleanter:</td><td>Sune Erlandsson, Ingvar Karlsson och Kerstin Bergkvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Programråd:</td><td>Sonja Lundqvist, Inger Wallén, Gudrun Karlsson, Majvor Karlsson, Ann-Britt Högsberg och Birgit Alm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kommunrepresentanter:</td><td>Barbro Alm och Tord Johansson.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>
+                                Året gav ett överskott, så på kontot fanns ca 43 000kr vid årets slut. Förutom sedvanliga bidrag gav
+                                påskauktionen, modevisning, höstdans och luciatablån goda resultat (tillsammans ca 21 500kr).
+                                Altunafesten gick precis runt, och gav +/- 0.
+                                Lokalen hyrdes ut 454 ggr.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="timeline-year">1986</span>
                         <h3 class="title"></h3>
-                        <p class="description"></p>
+                        <p class="description">Året gav ett överskott, så på kontot fanns ca 20 000kr vid årets slut. Förutom sedvanliga bidrag gav
+                        påskauktionen, Altunafesten och luciatablån goda resultat (tillsammans ca 25 000kr).
+                        Lokalen hyrdes ut 481 ggr, en minskning på grund av neddragningar i Altuna IF.</p>
+                        <a href="javascript:void(0)" class="show_hide" data-content="toggle-text">Läs mer...</a>
+                        <div class="content">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Ordförande:</td><td>Sven Olof Lundqvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vice ordförande:</td><td>Stig Karlsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kassör:</td><td>Tord Erlandsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sekreterare:</td><td>Monica Johansson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ledamöter:</td><td>Lars Ericsson och Gudrun Kraft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suppleanter:</td><td>Sune Erlandsson, Ingvar Karlsson och Kerstin Bergkvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Programråd:</td><td>Sonja Lundqvist, Inger Wallén, Gudrun Karlsson, Majvor Karlsson, Ann-Britt Högsberg och Birgit Alm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kommunrepresentanter:</td><td>Barbro Alm och Tord Johansson.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="timeline-year">1985</span>
                         <h3 class="title"></h3>
-                        <p class="description"></p>
+                        <p class="description">Påskauktionen, luciatablån och en EWK-utställning gav mycket bra resultat, men flera andra
+                        aktiviteter gav dåliga resultat. Även detta år gick Altunafesten med förlust.
+                        Inga omkostnader för reparationer och underhåll på fastigheten det här året.
+                        Totalt hyrdes lokalen ut 501 ggr.</p>
+                        <a href="javascript:void(0)" class="show_hide" data-content="toggle-text">Läs mer...</a>
+                        <div class="content">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Ordförande:</td><td>Sven Olof Lundqvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vice ordförande:</td><td>Stig Karlsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kassör:</td><td>Tord Erlandsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sekreterare:</td><td>Monica Johansson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ledamöter:</td><td>Lars Ericsson och Gudrun Kraft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suppleanter:</td><td>Sune Erlandsson, Ingvar Karlsson och Kerstin Bergkvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Programråd:</td><td>Sonja Lundqvist, Inger Wallén, Gudrun Karlsson, Majvor Karlsson, Barbro Alm och Gudrun Kraft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kommunrepresentanter:</td><td>Barbro Alm (suppleant Roland Stråhle).</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="timeline-year">1984</span>
                         <h3 class="title"></h3>
-                        <p class="description"></p>
+                        <p class="description">Bidrag erhölls från kommunen på 58 566kr och från Anders Perssons donationsfond på 8 980kr.
+                        Totalt hyrdes lokalen ut 521 ggr. Trots detta var utgifterna större än intäkterna, och hamnade på
+                        103 139kr.
+                        Påskauktion och paketauktion vid luciafesten hjälpte upp en del, men Altunafesten gjorde förlust på
+                        grund av dåligt väder.</p>
+                        <a href="javascript:void(0)" class="show_hide" data-content="toggle-text">Läs mer...</a>
+                        <div class="content">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Ordförande:</td><td>Sven Olof Lundqvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vice ordförande:</td><td>Stig Karlsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kassör:</td><td>Tord Erlandsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sekreterare:</td><td>Monica Johansson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ledamöter:</td><td>Lars Ericsson och Gudrun Jansson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suppleanter:</td><td>Sune Erlandsson, Ingvar Karlsson och Gudrun Kraft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Revisor:</td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kommunrepresentanter:</td><td>Barbro Alm (suppleant Roland Stråhle).</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="timeline-year">1983</span>
                         <h3 class="title"></h3>
-                        <p class="description"></p>
+                        <p class="description">Stora investeringar gjordes i fastigheten, bl.a. ett förbättrat värme- och varmvattenssystem. Bidrag
+                        erhölls från kommunen på 58 000kr och från Anders Perssons donationsfond på 8 000kr.
+                        Totalt hyrdes lokalen ut 495 ggr, vilket var en ökning.</p>
+                        <a href="javascript:void(0)" class="show_hide" data-content="toggle-text">Läs mer...</a>
+                        <div class="content">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Ordförande:</td><td>Sven Olof Lundqvist</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vice ordförande:</td><td>Stig Karlsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kassör:</td><td>Tord Erlandsson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sekreterare:</td><td>Monica Johansson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ledamöter:</td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suppleanter:</td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Revisor:</td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Revisorsuppleant:</td><td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">

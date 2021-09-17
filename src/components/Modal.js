@@ -20,14 +20,11 @@ const Modal = () => {
                     <a class="btn btn-primary btn-sm my-2 modal-btn" href="#contact" role="button">Till kontaktsidan</a>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
                 </div>
             </div>
         </div>
     </div>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#altunagarden-modal">
-  Launch demo modal
-</button>
   `;
 
 	return template;

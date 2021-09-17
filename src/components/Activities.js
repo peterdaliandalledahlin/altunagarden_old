@@ -25,7 +25,7 @@ const Activities = () => {
             <div class="card mb-2">
                 <div class="card-body">
                     <h5 class="card-title">Luftgevärsskytte</h5>
-                    <p class="card-text">Vi har två stycken luftgevärsbanor i källaren. För närvarande finns det ingen aktivitet p.g.a brist på intresserade. Vid intresse, kontakta Per Vestin, 070-896 49 47</p>
+                    <p class="card-text">Tisdagkvällar - för barn och ungdomar. Vid intresse, kontakta Per Vestin, 070-896 49 47</p>
                     <a href="#contact" class="btn btn-primary">Kontakta Per Westin</a>
                 </div>
             </div>

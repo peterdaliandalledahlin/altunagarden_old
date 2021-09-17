@@ -2,7 +2,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Book from './components/Book'
 import About from './components/About'
-//import Gallery from './components/Gallery'
+import Gallery from './components/Gallery'
 import Activities from './components/Activities'
 import Map from './components/Map'
 import Contact from './components/Contact'
@@ -26,6 +26,7 @@ async function App() {
       ${Activities()}
       ${Map()}
       ${Contact()}
+      ${Gallery()}
       ${Timeline()}
     </div>
     <div class="container-fluid p-0">
